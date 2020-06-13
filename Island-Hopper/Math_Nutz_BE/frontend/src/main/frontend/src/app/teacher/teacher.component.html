@@ -1,0 +1,7 @@
+<h1>Island Hopper Management Pane</h1>
+<div>
+<a [routerLink]="['users']">Manage Students</a>
+<a [routerLink]="['problems']">Manage Problems</a>
+</div>
+<router-outlet></router-outlet>
+<a (click)="logout()"><button>LogOut</button></a>
